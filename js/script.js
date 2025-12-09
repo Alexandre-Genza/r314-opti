@@ -10,8 +10,6 @@
       }
     });
 
-    // attente bloquante de 1000ms (comme dans ton original)
-    const t0 = performance.now();
-    while (performance.now() - t0 < 1000) {}
+
   });
 })();
