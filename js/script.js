@@ -1,9 +1,4 @@
 (function(){
-  // attente bloquante de 2000ms (comme dans ton original)
-  const start = performance.now();
-  while (performance.now() - start < 2000) {}
-
-  // plus de grosse allocation inutile ici
 
   window.addEventListener('load', function(){
     const imgs = document.querySelectorAll('.card img');
